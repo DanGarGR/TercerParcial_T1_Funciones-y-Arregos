@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votación por Sección</title>
+    <link rel="stylesheet" href="CSS/css.css">
+    <!-- Enlace al archivo JavaScript ubicado en la carpeta Java -->
+    <script src="Java/java.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Emitir tu Voto</h1>
+        <form id="votingForm">
+            <label for="section">¿De qué sección de la ciudad eres?</label><br>
+            <select id="section" name="section">
+                <option value="norte">Norte</option>
+                <option value="sur">Sur</option>
+                <option value="centro">Centro</option>
+            </select><br><br>
+
+            <button type="submit">Votar</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+</body>
+</html>
